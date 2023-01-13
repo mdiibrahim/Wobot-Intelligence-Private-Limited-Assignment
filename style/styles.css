@@ -1,0 +1,151 @@
+body {
+    font-family: 'Kodchasan', sans-serif;
+    color: #545454;
+    background: #F0F0F0;
+    font-size: 14px;
+
+
+}
+
+img {
+    width: 160px;
+    height: 36.02px;
+    left: 60px;
+    top: 60px;
+    margin: 60px;
+}
+
+
+.log-in {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 560px;
+    height: 611px;
+    margin-right: auto;
+    margin-left: auto;
+    box-shadow: 4px 4px 20px rgba(157, 157, 157, 0.12);
+    border-radius: 15px;
+    padding: 40px 91px 40px 91px;
+    margin-top: 93px;
+    background-color: #FFFFFF;
+
+}
+
+.login-logo-container {
+    width: 51px;
+    height: 48px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    margin: 0px auto 20px auto;
+
+}
+
+.login-logo {
+    background: #3766E8;
+    border-radius: 100px;
+    transform: matrix(0.86, -0.52, 0.51, 0.86, 0, 0);
+
+
+}
+
+.first {
+    Width: 11.05px;
+    Height: 27.84px;
+
+    left: 0%;
+    right: 78.34%;
+    top: 50.12%;
+    bottom: -8.13%;
+}
+
+.second {
+    Width: 11.05px;
+    Height: 42.37px;
+    left: 23.31%;
+    right: 55.02%;
+    top: 18.03%;
+    bottom: -6.3%;
+    Top: 8.65px;
+    Left: 11.89px;
+
+}
+
+.third {
+    Width: 11.05px;
+    Height: 21.55px;
+    left: 59.92%;
+    right: 18.42%;
+    top: 11.96%;
+    bottom: 43.15%;
+}
+
+section {
+    text-align: center;
+
+}
+
+.quotes {
+    margin-bottom: 16px;
+}
+
+.login-heading {
+    font-size: 26px;
+    color: #212121;
+    line-height: 30px;
+}
+
+.item {
+    margin-bottom: 28px;
+}
+
+.item-names {
+    text-align: left;
+    display: block;
+
+}
+
+.input-field {
+    width: 100%;
+    border: 1px solid #CED4DA;
+    border-radius: 6px;
+    padding: 12px;
+}
+
+.company-size {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+
+.company-size>button {
+    background-color: #F0F0F0;
+    border-radius: 2px;
+    padding: 4px 8px;
+}
+
+#selected-company-size {
+    background-color: #3766E8;
+    color: white;
+}
+
+.login-btn {
+    background: #3766E8;
+    border-radius: 5px;
+    padding: 10px 40px;
+    font-weight: 500;
+    font-size: 14px;
+    color: #FFFFFF;
+    width: 100%;
+}
+
+footer {
+    text-align: center;
+    margin-top: 121px;
+    margin-bottom: 57px;
+}

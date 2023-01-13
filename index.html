@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kodchasan:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style/styles.css">
+    <title>Wobot.ai</title>
+</head>
+
+<body>
+    <section></section>
+    <img src="assets/logo/logo.png" alt="">
+    <div class="log-in">
+
+        <section>
+            <div class="login-logo-container">
+
+                <div class="login-logo first"></div>
+                <div class="login-logo second"></div>
+                <div class="login-logo third"></div>
+            </div>
+
+            <div class="quotes">
+                <h1 class="login-heading">It's a delight to have you <br> onboard</h1>
+                <small>Help us know you better.</small><br>
+                <small>(This is how we optimize Wobot as per your business needs)</small>
+            </div>
+            <div class="item">
+                <label class="item-names" for="company">Company Name</label>
+                <input class="input-field" type="text" placeholder="e.g: Google" id="company" name="company">
+            </div>
+            <div class="item">
+                <label class="item-names" for="industry">Industry</label>
+                <select class="input-field" name="industry" id="industry">
+                    <option value="Tech">Tech</option>
+                    <option value="Ed-Tech" selected>Ed-Tech</option>
+                    <option value="Digital Marketing">Digital Marketing</option>
+                    <option value="Garments">Garments</option>
+                </select>
+            </div>
+            <div class="item">
+                <h4 class="item-names">Company Size</h4>
+                <div class="company-size">
+                    <button>1-20</button>
+                    <button>21-50</button>
+                    <button id="selected-company-size">51-200</button>
+                    <button>201-500</button>
+                    <button>500+</button>
+                </div>
+            </div>
+            <button class="login-btn">Get Started</button>
+        </section>
+
+
+    </div>
+    <footer>
+        <p>Terms of use | Privacy Policy</p>
+    </footer>
+</body>
+
+</html>
